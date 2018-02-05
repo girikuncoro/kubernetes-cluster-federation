@@ -1,3 +1,4 @@
 *.csv
 kubeconfig
 kube-dns.yaml
+clusters
