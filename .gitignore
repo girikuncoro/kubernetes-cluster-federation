@@ -1,2 +1,3 @@
 *.csv
 kubeconfig
+kube-dns.yaml
