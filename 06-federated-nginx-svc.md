@@ -154,11 +154,7 @@ No events.
 
 
 ```
-for cluster in ${CLUSTERS}; do
-  echo ""
-  echo "${cluster}"
-  kubectl --context=${cluster} describe services nginx
-done
+bash -x list-svc
 ```
 
 ```
